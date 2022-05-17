@@ -2,7 +2,7 @@
     "name": "jstudioo/user-management",
     "description": "user management",
 	"keywords": ["yii", "admin"],
-    "type": "yii2-extension",
+    "type": "library",
     "license": "BSD-3-Clause",
     "authors": [
         {
@@ -10,5 +10,12 @@
             "email": "aikon24@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "require": {
+		"php": ">=7.2"
+    },
+	"autoload": {
+		"psr-4": {
+			"jstudioo\\UserManagement\\": ""
+		}
+	}
 }
