@@ -10,13 +10,5 @@
             "email": "aikon24@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {
-        "yiisoft/yii2": "~2.0.7"
-    },
-	"autoload": {
-		"psr-4": {
-			"jstudioo\\UserManagement\\": ""
-		}
-	}
+    "minimum-stability": "dev"
 }
